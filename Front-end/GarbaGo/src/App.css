@@ -1,0 +1,35 @@
+.purple-slider {
+  -webkit-appearance: none; /* Remove default style */
+  width: 200px;
+  height: 4px; /* Thin track */
+  background: #ddd; /* Track background */
+  border-radius: 2px;
+  outline: none;
+}
+
+/* Track for Firefox */
+.purple-slider::-moz-range-track {
+  height: 4px;
+  background: #ddd;
+  border-radius: 2px;
+}
+
+/* Thumb (circle) */
+.purple-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: purple;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* Center thumb on track */
+}
+
+.purple-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: purple;
+  border-radius: 50%;
+  cursor: pointer;
+}
