@@ -90,7 +90,7 @@ const EventCheckOut = () => {
                     </div>
 
                     {/* Bottom Section */}
-                    <div className="border-t mt-4 pt-3 flex items-center justify-between">
+                    <div className="border-t mt-4 pt-3 md:gap-5 flex items-center justify-between">
                         <div>
                             <div className="font-semibold text-gray-800">₹{event.price} onwards</div>
                             <div className="text-green-600 text-sm font-medium">Available</div>

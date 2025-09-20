@@ -124,7 +124,7 @@ const ManageEvents = () => {
                                 src={event.banner}
                                 alt={event.eventName}
                             />
-                            <div className="flex flex-col justify-around  flex-1 text-center md:text-left">
+                            <div className="flex flex-col justify-center items-center w-full md:w-auto md:justify-around   flex-1 text-center md:text-left">
                                 <h4 className="font-bold">{event.eventName}</h4>
                                 <p><b>{event.status}</b></p>
                                 <p>{event.place}</p>

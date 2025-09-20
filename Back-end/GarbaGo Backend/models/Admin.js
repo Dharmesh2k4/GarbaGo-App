@@ -13,3 +13,12 @@ const AdminSchema = new mongoose.Schema({
 });
 
 export const Admin = mongoose.model("Admin", AdminSchema);
+
+
+//run bewlow command to insert a admin
+// use yourDBName;  // switch to your database
+
+// db.admins.insertOne({
+//   email: "demoadmin@example.com",
+//   name: "Demo Admin"
+// });

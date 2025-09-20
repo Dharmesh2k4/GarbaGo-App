@@ -193,7 +193,7 @@ const EventDetails = () => {
                                                 const data = await res.json();
                                                 if (data.status === "success") {
                                                     toast.success(data.message);
-                                                    navigate("/manageEvents"); // Redirect after deletion
+                                                    navigate("/"); // Redirect after deletion
                                                 } else {
                                                     toast.error(data.message || "Failed to delete event.");
                                                 }
